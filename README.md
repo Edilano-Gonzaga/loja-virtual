@@ -1,16 +1,23 @@
-# React + Vite
+# Loja Virtual - Geração Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de loja virtual feito em React com a Fake Store API.
 
-Currently, two official plugins are available:
+## O que eu usei
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React + Vite
+- PrimeReact pra vitrine e formulário
+- Fake Store API pra buscar os produtos
 
-## React Compiler
+## O que faz
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Lista os produtos da API
+Vitrine responsiva (1 no celular, 4 no PC)
+Formulário pra adicionar produto novo, ele entra no começo da lista
+Cards com foto, preço, categoria
+Feito pro exercício de React da Geração Tech.
 
-## Expanding the ESLint configuration
+## Como rodar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
