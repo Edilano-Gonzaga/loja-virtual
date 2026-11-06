@@ -1,0 +1,20 @@
+
+body {
+  background: #f4f4f4;
+}
+
+.titulo-loja {
+  text-align: center;
+  color: #222;
+  margin-bottom: 0;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #666;
+}
+
+.lista-produtos {
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
